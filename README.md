@@ -25,6 +25,7 @@ src/
 │   └── Sidebar.jsx
 ├── pages/
 │   ├── Dashboard.jsx
+│   ├── Reports.jsx
 │   ├── Settings.jsx
 │   └── Users.jsx
 ```

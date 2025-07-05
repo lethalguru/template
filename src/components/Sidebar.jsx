@@ -11,6 +11,7 @@ import {
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleIcon from '@mui/icons-material/People';
 import SettingsIcon from '@mui/icons-material/Settings';
+import BarChartIcon from '@mui/icons-material/BarChart';
 import { NavLink } from 'react-router-dom';
 
 const drawerWidth = 240;
@@ -20,6 +21,7 @@ const Sidebar = ({ open }) => {
   const items = [
     { text: 'Dashboard', icon: <DashboardIcon />, path: '/' },
     { text: 'Users', icon: <PeopleIcon />, path: '/users' },
+    { text: 'Reports', icon: <BarChartIcon />, path: '/reports' },
     { text: 'Settings', icon: <SettingsIcon />, path: '/settings' }
   ];
 
